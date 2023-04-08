@@ -1,0 +1,307 @@
+.container {
+    padding: 100px 200px;
+    display: flex;
+}
+
+.total {
+    width: 432px;
+height: 410px;
+
+
+background: #FFFFFF;
+
+
+border: 0.7px solid #5B6460;
+}
+.info {
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+    gap: 50px;
+}
+.info h1 {
+    width: 738px;
+    font-style: normal;
+font-weight: 400;
+font-size: 30px;
+border-bottom: 3px solid #5B6460;
+padding-bottom: 24px;
+
+line-height: 24px;
+/* identical to box height, or 100% */
+
+
+/* green */
+
+color: #5B6460;
+}
+.inputsGrip {
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 25px;
+grid-row-gap: 25px;
+}
+.inputsGrip input {
+    width: 318px;
+height: 40px;
+border: 0.7px solid #505553;
+}
+.inputsGrip input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.inputPay {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.inputPay input{
+    width: 660px;
+    height: 40px;
+    border: 0.7px solid #505553;
+}
+.inputPay input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.inputPayInfo {
+    display: grid;
+    width: 660px;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 25px;
+grid-row-gap: 25px;
+}
+.inputPayInfo input{
+    height: 40px;
+    border: 0.7px solid #505553;
+}
+.inputPayInfo input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.container button {
+    width: 384px;
+height: 60px;
+font-weight: 300;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+background: #5B6460;
+/* green */
+
+border: 1px solid #5B6460;
+cursor: pointer;
+}
+
+
+.total {
+    width: 432px;
+height: 440px;
+border: 1px solid #5B6460;
+border-radius: 7px;
+padding: 30px 30px ;
+margin-top: 20px;
+cursor: not-allowed;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+height: 80px;
+border: 1px solid black;
+background: #E9ECE0;
+}
+.boxSettings {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.boxSettings img {
+    padding-left: 20px;
+    cursor: pointer;
+}
+.checkSettings {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px 30px;
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+/* Gray 1 */
+
+color: #333333;
+border: 1px solid black;
+gap: 20px;
+
+}
+.checkIn {
+    border-right: 1px solid black;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.checkOut {
+    border-right: 1px solid black;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.guestsBtns {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+.bookBtn {
+    margin: 0 24px;
+}
+.bookBtn button{
+    /* green */
+
+background: #5B6460;
+/* green */
+    width: 100%;
+    padding: 16px 0px;
+border: 1px solid #5B6460;
+font-weight: 300;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+cursor: pointer;
+margin-bottom: 30px;
+}
+.pricesInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.priceNight {
+    display: flex;
+    font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+/* Gray 1 */
+
+color: #333333;
+    justify-content: space-between;
+}
+.priceDinner {
+    display: flex;
+    font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+/* Gray 1 */
+
+color: #333333;
+    justify-content: space-between;
+}
+
+.priceCar {
+    display: flex;
+    font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+/* Gray 1 */
+
+color: #333333;
+    justify-content: space-between;
+}
+.discount {
+    display: flex;
+    font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+/* Gray 1 */
+
+color: #41916D;
+    justify-content: space-between;
+    border-bottom: 1px solid black ;
+    padding-bottom: 27px;
+}
+.totalPrice {
+    margin-top: 50px;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+color: #333333;
+font-size: 30px;
+}
+.Coupon form{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Coupon input {
+    width: 282.7px;
+height: 50px;
+border: 0.7px solid #5B6460;
+font-size: 20px;
+margin: 0;
+}
+.Coupon input:focus {
+    outline: none;
+}
+.Coupon div {
+    width: 101.33px;
+height: 54px;
+
+background: #5B6460;
+color: white;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+}

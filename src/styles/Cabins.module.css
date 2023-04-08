@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 105px;
+}
+.left {
+    margin-top: 237px;
+}
+.right {
+    margin-top: 150px;
+}
+.right img {
+    width: 693px;
+    height: 438px;
+}
+.title h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+
+    
+    color: #5B6460;
+}
+.info {
+    padding-top: 50px;
+width: 465px;
+height: 244px;
+}
+.info span {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    
+    
+    color: #000000;
+}
+.info h4 {
+    width: 84px;
+height: 30px;
+    font-weight: 600;
+font-size: 16px;
+line-height: 30px;
+
+color: #5B6460;
+border-bottom: 1.5px solid #5B6460 ;
+}
+

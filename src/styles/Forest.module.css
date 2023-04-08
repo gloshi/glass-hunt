@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    margin-top: 150px;
+}
+.left {
+    padding-left: 10px;
+}
+.right {
+    padding-top: 150px;
+    padding-left: 110px;
+    background: #E9ECE0;
+}
+.right h1 {
+    font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+/* identical to box height, or 100% */
+
+
+/* forest */
+
+color: #5B6460;
+}
+.right span {
+    font-weight: 300;
+font-size: 16px;
+line-height: 30px;
+
+color: #333333;
+}
+.right h3 {
+    font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+width: 80px;
+height: 30px;
+cursor: pointer;
+color: #5B6460;
+border-bottom: 1px solid #5B6460
+}

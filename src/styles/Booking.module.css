@@ -1,0 +1,375 @@
+.BookingImg img {
+    width: 100%;
+    height: 450px;
+}
+.BookingImg {
+    position: relative;
+}
+.BookingText {
+    position: absolute;
+    top: 120px;
+    left: 800px;
+    
+}
+.BookingText h1 {
+
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 72px;
+    /* identical to box height, or 103% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.BookingText span {
+ 
+    font-weight: 300;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+text-decoration-line: underline;
+
+color: #FFFFFF;
+}
+.BookingText div{
+    padding-left: 30px;
+}
+.services {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    
+    
+    /* green */
+    
+    color: #5B6460;
+}
+.services {
+    display: flex;
+
+    justify-content: center;
+    margin-top: 180px;
+    gap: 138px;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.options h1{
+    width: 615px;
+    border-bottom: 2.5px solid #5B6460;
+    padding-bottom: 20px;
+}
+.total {
+    width: 432px;
+height: 590px;
+border: 1px solid #5B6460;
+border-radius: 7px;
+padding: 30px 30px ;
+margin-top: 20px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+height: 80px;
+border: 1px solid black;
+background: #E9ECE0;
+}
+.boxSettings {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.boxSettings img {
+    padding-left: 20px;
+    cursor: pointer;
+}
+.checkSettings {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px 30px;
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+/* Gray 1 */
+
+color: #333333;
+border: 1px solid black;
+gap: 20px;
+
+}
+.checkIn {
+    border-right: 1px solid black;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.checkOut {
+    border-right: 1px solid black;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.guestsBtns {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+.bookBtn {
+    margin: 0 24px;
+}
+.bookBtn button{
+    /* green */
+
+background: #5B6460;
+/* green */
+    width: 100%;
+    padding: 16px 0px;
+border: 1px solid #5B6460;
+font-weight: 300;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+cursor: pointer;
+margin-bottom: 30px;
+}
+.pricesInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.priceNight {
+    display: flex;
+    font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+/* Gray 1 */
+
+color: #333333;
+    justify-content: space-between;
+}
+.priceDinner {
+    display: flex;
+    font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+/* Gray 1 */
+
+color: #333333;
+    justify-content: space-between;
+}
+
+.priceCar {
+    display: flex;
+    font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+/* Gray 1 */
+
+color: #333333;
+    justify-content: space-between;
+}
+.discount {
+    display: flex;
+    font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+/* Gray 1 */
+
+color: #41916D;
+    justify-content: space-between;
+    border-bottom: 1px solid black ;
+    padding-bottom: 27px;
+}
+.totalPrice {
+    margin-top: 50px;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+color: #333333;
+font-size: 30px;
+}
+.Coupon form{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Coupon input {
+    width: 282.7px;
+height: 50px;
+border: 0.7px solid #5B6460;
+font-size: 20px;
+margin: 0;
+}
+.Coupon input:focus {
+    outline: none;
+}
+.Coupon div {
+    width: 101.33px;
+height: 54px;
+
+background: #5B6460;
+color: white;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.rules {
+    margin-top: 110px;
+    margin-left: 210px;
+
+}
+.rules div {
+    width: 681px;
+    font-weight: 600;
+font-size: 34px;
+line-height: 24px;
+/* identical to box height, or 100% */
+
+
+/* green */
+
+color: #5B6460;
+border-bottom: 3px solid #5B6460;
+padding-bottom: 20px;
+}
+.rules span {
+
+
+    display: block;
+    width: 270px;
+height: 162px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+padding-top: 24px;
+/* or 112% */
+
+
+/* Gray 1 */
+
+color: #333333;
+}
+.policy {
+    margin-top: 110px;
+    margin-left: 210px;
+}
+.policy div{
+    width: 681px;
+    font-weight: 600;
+font-size: 34px;
+line-height: 24px;
+/* identical to box height, or 100% */
+
+
+/* green */
+
+color: #5B6460;
+border-bottom: 3px solid #5B6460;
+padding-bottom: 20px;
+}
+.policy span {
+    display: block;
+    width: 270px;
+height: 162px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+padding-top: 24px;
+/* or 112% */
+
+
+/* Gray 1 */
+
+color: #333333;
+}
+.information {
+    margin-top: 110px;
+    margin-left: 210px;
+}
+.information div {
+    width: 681px;
+    font-weight: 600;
+font-size: 34px;
+line-height: 24px;
+/* identical to box height, or 100% */
+
+
+/* green */
+
+color: #5B6460;
+border-bottom: 3px solid #5B6460;
+padding-bottom: 20px;
+}
+.information span {
+    display: block;
+    width: 270px;
+height: 162px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+padding-top: 24px;
+/* or 112% */
+
+
+/* Gray 1 */
+
+color: #333333;
+}
+.date {
+    position: absolute;
+    top: 570px;
+    right: 190px;
+}

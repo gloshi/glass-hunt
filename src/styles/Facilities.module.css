@@ -1,0 +1,169 @@
+.container {
+    height: 971px;
+    background: #5B6460;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+.title  {
+    font-weight: 300;
+font-size: 58px;
+line-height: 40px;
+/* identical to box height, or 100% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.grid {
+    padding-top: 135px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 133px;
+    grid-row-gap: 70px;
+
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.info span {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.info img {
+    width: 100px;
+    height: 160px;
+}
+.about {
+    position: relative;
+    display: flex;
+    height:  559px;
+}
+.about img {
+    width: 100%;
+height: 559px;
+}
+.textAbout {
+    width: 150px;
+    height: 150px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    color: black;
+    background: #E9ECE0;
+    z-index: 99;
+    top: 210px;
+    left: 789px;
+    cursor: pointer;
+}   
+
+.withUs {
+    margin-top: 150px;
+    display: flex;
+}
+.left {
+    padding-left: 346px;
+    display: flex;
+    flex-direction: column;
+}
+.left h1 {
+    padding-bottom: 50px;
+    font-weight: 400;
+font-size: 40px;
+line-height: 60px;
+
+
+color: #5B6460;
+}
+.left span {
+    padding-top: 20px;
+    font-weight: 300;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+
+color: #000000;
+}
+.icons {
+
+    display: flex;
+    gap: 78px;
+    padding-top: 50px;
+}
+.right {
+    position: relative;
+    width: 386px;
+    height: 288px;
+    margin-left: 445px;
+    margin-top: 70px;
+
+}
+.right button {
+
+    border: none;
+    margin: 0;
+}
+.price {
+    width: 386px;
+    position: absolute;
+    display: flex;
+    height: 100px;
+    top: 188px;
+}   
+.price button {
+    width: 266px;
+    background: #5B6460;
+    font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.text {
+    width: 120px;
+    background: #E9ECE0;
+}
+.text div{
+    padding-left: 29px;
+    font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+
+/* Gray 1 */
+
+color: #333333;
+}
+.text span {
+    font-weight: 300;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+    padding-left: 29px;
+
+/* Gray 1 */
+
+color: #333333;
+}

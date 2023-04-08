@@ -1,0 +1,182 @@
+.container {
+    position: relative;
+}
+.image img{
+    position: relative;
+    width: 100%;
+}
+.text {
+    position: absolute;
+    z-index: 9;
+    top: 395px;
+    right: 58px;
+
+}
+.text h1 {
+    font-weight: 300;
+font-size: 70px;
+line-height: 72px;
+
+
+text-align: right;
+
+color: #b5e9e2;
+}
+.text p {
+    font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+text-align: center;
+color: #b5e9e2;
+}
+
+.btn {
+    width: 383px;
+    height: 100px;
+    padding-left: 136px;
+    display: flex;
+    position: absolute;
+    bottom:  -27px;
+    left: 0;
+}
+.btn button {
+    border: none;
+    padding: 26px 82px;
+    background: #5B6460;
+    font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.price {
+
+    width: 120px;
+    height: 100px;
+    padding: 0;
+    background-color: #E9ECE0;
+}
+.price p {
+    font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+padding-left: 29px;
+white-space:nowrap;
+
+
+color: #ca0f0f;
+}
+
+.price span {
+    font-weight: 300;
+font-size: 20px;
+line-height: 28px;
+padding-left: 28px;
+
+color: #00df55;
+}
+/* calendar */
+.calendar {
+
+    z-index: 999;
+    top: 20px;
+    right: 30px;
+    position: absolute;
+    width: 673px;
+    height: 446px;
+
+}
+.params {
+    display: flex;
+
+}
+.dates{
+    width: 490px;
+    height: 66px;
+    border: 1px solid #333333;
+    display: flex;
+}
+.checkIn {
+    width: 208px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px ;
+    border-right: 1px solid black;
+    padding-right: 67px;
+    font-size: 18px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+/* Gray 1 */
+color: white;
+
+}
+.checkOut {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px ;
+    border-right: 1px solid black;
+    padding-right: 67px;
+    font-size: 18px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+/* Gray 1 */
+
+color: white;
+}
+.guests {
+
+    width: 208px;
+    font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+padding: 10px ;
+
+/* Gray 1 */
+
+color: white;
+}
+
+.calendarBtn {
+    width: 208px;
+height: 68px;
+background: #5B6460;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 300;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+cursor: pointer;
+}
+.months {
+    width: 673px;
+height: 380px;
+}

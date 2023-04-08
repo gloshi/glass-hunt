@@ -1,0 +1,49 @@
+.container {
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Box {
+    width: 774px;
+    height: 60px;
+    padding-left: 40px;
+
+    border: 0.7px solid #5B6460;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #333333;
+}
+
+.Box img {
+    cursor: pointer;
+}
+
+.info h1 {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+
+
+    color: #333333;
+}
+
+.info {
+    padding: 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 774px;
+    height: 119px;
+    background: #E9ECE0;
+}
